@@ -19,14 +19,15 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 
+# Screenshot
+#![Screenshot (3)](https://user-images.githubusercontent.com/55752850/203380027-58425598-2d4e-44fc-80f6-2df3d6e9974e.png)
 
-### Screenshot
 
 
 
 ### Links
 
-- Solution URL: [Github]
+- Solution URL: [Github](https://github.com/ramz04/Four-Card-Feature)
 - Live Site URL: [Netlify]
 ### Built with
 
