@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+  </style>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+    theme: {
+      colors:{
+        red: 'hsl(0, 78%, 62%)',
+        cyan: 'hsl(180, 62%, 55%)',
+        orange: 'hsl(34, 97%, 64%)',
+        blue: 'hsl(212, 86%, 64%)',
+        veryDarkBlue: 'hsl(234, 12%, 34%)',
+        grayishBlue: 'hsl(229, 6%, 66%)',
+        veryLightGray: 'hsl(0, 0%, 98%)',
+      },
+      extend: {
+        fontFamily: {
+          'poppins': ['Poppins', 'sans-serif'],// Ensure fonts with spaces have " " surrounding it.
+        },
+      },
+    },
+  }
+  </script>
+</head>
+<body class="bg-veryLightGray font-poppins bg-veryLightGray flex flex-col items-center justify-center min-h-screen relative">
+  
+  <!-- Reliable, efficient delivery
+  Powered by Technology
+
+  Our Artificial Intelligence powered tools use millions of project data points 
+  to ensure that your project is successful
+
+  Supervisor
+  Monitors activity to identify project roadblocks
+
+  Team Builder
+  Scans our talent network to create the optimal team for your project
+
+  Karma
+  Regularly evaluates our talent to ensure quality
+
+  Calculator
+  Uses data from past projects to provide better delivery estimates -->
+
+  
+    <main class="max-w-[290px] md:max-w-[60rem] mx-5 my-10">
+      <header class="text-center md:w-[30rem] mx-auto">
+        <h2 class="text-xl font-light text-grayishBlue">
+          Reliable, efficient delivery
+        </h2>
+        <h2 class="text-xl font-bold text-veryDarkBlue mb-2">Powered by Technology</h2>
+        <p class="text-sm  text-grayishBlue mb-10">Our Artificial Intelligence powered tools use millions of project data points 
+          to ensure that your project is successful</p>
+      </header>
+      <div class="md:grid gap-6 grid-cols-3 grid-rows-[110px_110px_110px_110px]">
+        <div class="card-1 p-5 bg-white shadow-lg rounded border-t-4 border-t-cyan mb-5 row-start-2 row-end-4">
+          <h2 class="text-lg font-semibold">Supervisor</h2>
+          <p class="text-grayishBlue text-sm">
+            Monitors activity to identify project roadblocks
+          </p>
+          <div class="icon-img mt-6">
+            <img src="images/icon-supervisor.svg" alt="" class="ml-auto" />
+          </div>
+        </div>
+        <div class="card-1 p-5 bg-white shadow-lg rounded border-t-4 border-t-red mb-5 row-start-1 row-end-3">
+          <h2 class="text-lg font-semibold">Team Builder</h2>
+          <p class="text-grayishBlue text-sm">
+            Scans our talent network to create the optimal team for your project
+          </p>
+          <div class="icon-img mt-6">
+            <img src="images/icon-team-builder.svg" alt="" class="ml-auto" />
+          </div>
+        </div>
+        <div class="card-1 p-5 bg-white shadow-lg rounded border-t-4 border-t-orange mb-5 row-start-3 row-end-5">
+          <h2 class="text-lg font-semibold">Karma</h2>
+          <p class="text-grayishBlue text-sm">
+            Regularly evaluates our talent to ensure quality
+          </p>
+          <div class="icon-img mt-6">
+            <img src="images/icon-karma.svg" alt="" class="ml-auto" />
+          </div>
+        </div>
+        <div class="card-1 p-5 bg-white shadow-lg rounded border-t-4 border-t-blue mb-5 row-start-2 row-end-4">
+          <h2 class="text-lg font-semibold">Calculator</h2>
+          <p class="text-grayishBlue text-sm">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <div class="icon-img mt-6">
+            <img src="images/icon-calculator.svg" alt="" class="ml-auto" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+</html>
