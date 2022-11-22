@@ -28,7 +28,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ### Links
 
 - Solution URL: [Github](https://github.com/ramz04/Four-Card-Feature)
-- Live Site URL: [Netlify](https://four-card-feature-ashy-eight.vercel.app/)
+- Live Site URL: [Vercel](https://four-card-feature-ashy-eight.vercel.app/)
 ### Built with
 
 - Semantic HTML5 markup
